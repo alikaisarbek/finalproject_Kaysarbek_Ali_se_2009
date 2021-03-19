@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imusic</title>
+    <link rel="icon" href="images/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/albums.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/media-queries.css" />
+
+  </head>
+
+  <body style="background-color: #2d46b9;">
+    <!-- HEADER -->
+    <header>
+    <div class="header-container">
+    <div class="header-logo">  
+    </div>
+      <!-- This is the menu that will be shown on mobile devices-->
+      <nav class="nav-mobile">
+          <!-- Profile -->
+          <div class="profile">
+            <svg viewBox="0 0 1024 1024" class="profile-icon">
+              <path
+                d="M730.06 679.64q-45.377 53.444-101.84 83.443t-120 29.999q-64.032 0-120.75-30.503t-102.6-84.451q-40.335 13.109-77.645 29.747t-53.948 26.722l-17.142 10.084Q106.388 763.84 84.96 802.41t-21.428 73.107 25.461 59.242 60.754 24.705h716.95q35.293 0 60.754-24.705t25.461-59.242-21.428-72.603-51.679-57.225q-6.554-4.033-18.907-10.84t-51.427-24.453-79.409-30.755zm-221.84 25.72q-34.285 0-67.561-14.873t-60.754-40.335-51.175-60.502-40.083-75.124-25.461-84.451-9.075-87.728q0-64.032 19.915-116.22t54.452-85.964 80.67-51.931 99.072-18.151 99.072 18.151 80.67 51.931 54.452 85.964 19.915 116.22q0 65.04-20.167 130.58t-53.948 116.72-81.426 83.443-98.568 32.268z"
+              ></path>
+            </svg>
+          </div>
+          <!-- Hamburger menu -->
+          <input type="checkbox" class="toggler" />
+          <div class="hamburger-menu"><div></div></div>
+          <div class="menu">
+            <div class="background-overlay"></div>
+              <div class="menu-overlay">
+                <ul>
+                  <li><a href="https://www.spotify.com/us/premium/">Premium</a></li>
+                  <li><a href="support.html">Support</a></li>
+                  <li><a href="#">Download</a></li>
+                  <li role="separator"></li>
+                  <li><a href="registration.html">Registration</a></li>
+                  <li><a href="login1.html">Log in</a></li>
+                </ul>
+                <div class="menu-overlay-logo">
+                  <img src="images/spotify-logo.svg" />
+                </div>
+              </div>
+            </div>
+          </nav>
+        <!-- This is the menu that will be shown on Desktop -->
+        <nav class="nav-desktop">
+          <!-- Site menu -->
+          <ul>
+             <li><a href="homepage.html">Home</a></li>
+            <li><a href="support2.html">Support</a></li>
+            <li><a href="login1.html">My account</a></li>
+            <li role="separator"></li>
+          </ul>
+          <!-- Profile menu -->
+          <div class="profile-container">
+            <input type="checkbox" class="dropdown-menu-toggler" />
+            <div class="dropdown-menu">
+              <ul>
+                <li><a href="registration.html">Registration</a></li>
+                <li><a href="login1.html">Log in</a></li>
+              </ul>
+            </div>
+            <div class="profile">
+              <svg viewBox="0 0 1024 1024" class="profile-icon">
+                <path
+                  d="M730.06 679.64q-45.377 53.444-101.84 83.443t-120 29.999q-64.032 0-120.75-30.503t-102.6-84.451q-40.335 13.109-77.645 29.747t-53.948 26.722l-17.142 10.084Q106.388 763.84 84.96 802.41t-21.428 73.107 25.461 59.242 60.754 24.705h716.95q35.293 0 60.754-24.705t25.461-59.242-21.428-72.603-51.679-57.225q-6.554-4.033-18.907-10.84t-51.427-24.453-79.409-30.755zm-221.84 25.72q-34.285 0-67.561-14.873t-60.754-40.335-51.175-60.502-40.083-75.124-25.461-84.451-9.075-87.728q0-64.032 19.915-116.22t54.452-85.964 80.67-51.931 99.072-18.151 99.072 18.151 80.67 51.931 54.452 85.964 19.915 116.22q0 65.04-20.167 130.58t-53.948 116.72-81.426 83.443-98.568 32.268z"
+                ></path>
+              </svg>
+            </div>
+            <ul>
+              <li>Profile</li>
+              <li>
+                <svg viewBox="0 0 1024 1024" class="profile-arrow">
+                  <path
+                    d="M476.455 806.696L95.291 425.532Q80.67 410.911 80.67 390.239t14.621-34.789 35.293-14.117 34.789 14.117L508.219 698.8l349.4-349.4q14.621-14.117 35.293-14.117t34.789 14.117 14.117 34.789-14.117 34.789L546.537 800.142q-19.159 19.159-38.318 19.159t-31.764-12.605z"
+                  ></path>
+                </svg>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+ <section class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title" style="color: white; margin-top: 100px;"> Search your favourite artist/music</h1>
+
+<div id="Artists" class="tabcontent" style="margin-top: 50px;">
+  <p style="font-size: 25px; color: white;">Enter name to search </p>
+  <input id="input1" style="width: 100%; height: 20px;" type="text" name="Artists">
+  <button onclick="getArtists()" style="width: 20%; margin-left: 130px; margin-top: 20px;">Search</button>
+  <p id="p1" style="font-size: 25px; color: white;"></p>
+  <p id="p2" style="font-size: 25px; color: white;"></p>
+  <p id="p3" style="font-size: 25px; color: white;"></p>
+  <p id="p4" style="font-size: 25px; color: white;"></p>
+  <p id="p5" style="font-size: 25px; color: white;"></p>
+</div>
+
+<div id="Songs" class="tabcontent" style="margin-top: 50px;">
+  <p style="font-size: 25px; color: white;">Enter song to search </p>
+  <input id="input2" style="width: 100%; height: 20px;" type="text" name="Songs">
+  <button onclick="getSongs()" style="width: 20%; margin-left: 130px; margin-top: 20px;">Search</button>
+  <p id="p11" style="font-size: 25px; color: white;"></p>
+  <p id="p22" style="font-size: 25px; color: white;"></p>
+  <p id="p33" style="font-size: 25px; color: white;"></p>
+  <p id="p44" style="font-size: 25px; color: white;"></p>
+  <p id="p55" style="font-size: 25px; color: white;"></p>
+</div>
+
+
+<script>
+  function getArtists() {
+    $.get('https://my-json-server.typicode.com/KuanyshZhardenbay/ali/Artists', function (resp, status, resp_obj) {
+        console.log(status);
+        let inpt2 = $('#input1').val();
+        for (var i = 0; i < resp.length; i++) {
+            $('#p1').html(function (ind, old_value) {
+                if (inpt2 == resp[i].name) {
+                    return "name: " + resp[i].name;
+                }
+            })
+            $('#p2').html(function (ind, old_value) {
+                if (inpt2 == resp[i].name) {
+                    return "birth day: " + resp[i].birth_day;
+                }
+            })
+            $('#p3').html(function (ind, old_value) {
+                if (inpt2 == resp[i].name) {
+                    return "albums: " + resp[i].albums;
+        }
+         })
+            $('#p4').html(function (ind, old_value) {
+                if (inpt2 == resp[i].name) {
+                    return "awards: " + resp[i].awards;
+        }
+ })
+            $('#p5').html(function (ind, old_value) {
+                if (inpt2 == resp[i].name) {
+                    return "years_active: " + resp[i].years_active;
+        }
+    })
+   }
+ })
+}
+function getSongs() {
+    $.get('https://my-json-server.typicode.com/KuanyshZhardenbay/ali/Songs', function (resp, status, resp_obj) {
+        console.log(status);
+        let inpt2 = $('#input2').val();
+        for (var i = 0; i < resp.length; i++) {
+            $('#p11').html(function (ind, old_value) {
+                if (inpt2 == resp[i].Name) {
+                    return "Name: " + resp[i].Name;
+                }
+            })
+            $('#p22').html(function (ind, old_value) {
+                if (inpt2 == resp[i].Name) {
+                    return "Artist: " + resp[i].Artist;
+                }
+            })
+            $('#p33').html(function (ind, old_value) {
+                if (inpt2 == resp[i].Name) {
+                    return "Year: " + resp[i].Year;
+        }
+         })
+            $('#p44').html(function (ind, old_value) {
+                if (inpt2 == resp[i].Name) {
+                    return "Album: " + resp[i].Album;
+        }
+ })
+            $('#p55').html(function (ind, old_value) {
+                if (inpt2 == resp[i].Name) {
+                    return "Length: " + resp[i].Length;
+        }
+    })
+   }
+ })
+}
+
+</script>
+          
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  </html>
