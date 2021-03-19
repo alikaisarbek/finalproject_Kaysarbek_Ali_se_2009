@@ -1,0 +1,28 @@
+{
+"Post":[
+{"id": 1,"email":"Gamer@gmail.com","password":"Asdfgh124!"},
+{"id": 2,"email":"TheIll-informed@gmail.com","password":"5F[~D:sj"},
+{"id": 3,"email":"ItPathetic@mail.ru","password":"j;t8WrZi"},
+{"id": 4,"email":"ppCharming@gmail.com","password":"?kH8<g;-"},
+{"id": 5,"email":"AsFierce@mail.ru","password":"w8_&rMb["}
+],
+"Artists":[
+{"name":"Travis Scott","birth day":"30.04.1992","albums":"Utopia, Astroworld, Rodeo", "awards":"BET Awards, American Music Awards", "years active": "2008–present"},
+{"name":"Zayn","birth day":"12.01.1993","albums":"Mind of mine, Nobody is litining", "awards":"MTV Awards, American Music Awards", "years active": "2010–present"},
+{"name":"Joji","birth day":"18.07.1992","albums":"Nectar, Ballads, Pink season", "awards":"BET Awards, American Awards", "years active": "2015–present"},
+{"name":"Jeniffer Lopez","birth day":"24.07.1969","albums":"Love?, Brave, Rebirth", "awards":"Mtv, Grammy", "years active": "1986–present"},
+{"name":"Chris Stapleton","birth day":"15.04.1978","albums":"Travaller", "awards":"BET Awards, American Music Awards", "years active": "2000–present"}
+],
+"Songs":[
+{"Name":"Crazy in love","Artist":"Beyonce ft. JAY-Z","Year":"2011","Album":"Dangerously in Love","Length":"4 minutes"},
+{"Name":"Can't help falling in love","Artist":"Elvis Presley","Year":"1961","Album":"Blue Hawaii movie OST","Length":"3 minutes"},
+{"Name":"Blinding lights","Artist":"The Weeknd","Year":"2020","Album":"After Hours","Length":"3 minutes 22 seconds"},
+{"Name":"Watermelon Sugar","Artist":"Harry Styles","Year":"2019","Album":"Fine Line","Length":"2 minutes 22 seconds"},
+{"Name":"Feel it still","Artist":"Portugal. The Man","Year":"2017","Album":"FM4 Soundselection 36","Length":"3 minutes"},
+{"Name":"Shape of you","Artist":"Ed Sheeran","Year":"2017","Album":"Divide","Length":"3 minutes"},
+{"Name":"See you again","Artist":"Wiz Khalifa","Year":"2015","Album":"Furious 7: Original Motion Picture Soundtrack","Length":"3 minutes"},
+{"Name":"Despacito","Artist":"Luis Fonsi","Year":"2019","Album":"Vida","Length":"3 minutes"},
+{"Name":"Dance Monkey","Artist":"Tones and I","Year":"2019","Album":"The Kids Are Coming","Length":"3 minutes"},
+{"Name":"Levitating","Artist":"Dua Lipa","Year":"2020","Album":"Future Nostalgia","Length":"3 minutes"}
+]
+}
